@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER Darrin Wortlehock <darrin@beyondthestory.com>
 
 ENV HOME /root
-RUN mkdir /build
+
 ADD . /build
 
 RUN /build/prepare.sh && \
