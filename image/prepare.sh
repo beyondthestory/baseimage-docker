@@ -38,6 +38,9 @@ $minimal_apt_get_install apt-transport-https ca-certificates
 ## Install add-apt-repository
 $minimal_apt_get_install software-properties-common
 
+## Install wget
+$minimal_apt_get_install wget
+
 ## Upgrade all packages.
 apt-get dist-upgrade -y --no-install-recommends
 
